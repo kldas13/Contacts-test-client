@@ -22,7 +22,7 @@ export default function Sidebar() {
                 <img src="/dashboard.png" alt="dashboard" /><span>Dashboard</span>
             </div>
             <div className='Sidebar-options' id={selstyle.contact ? "contact-cont" : "contact-cont-select"} onClick={() => { setselstyle({ ...selstyle, contact: false, dashboard: true }) }}>
-                <img src="/vector.png" alt="contact" /><span>Total contacts </span>
+                <img src="/Vector.png" alt="contact" /><span>Total contacts </span>
             </div>
             <div id='logout'>
                 <img src="/logout.png" alt="logout" /><span onClick={() => {
