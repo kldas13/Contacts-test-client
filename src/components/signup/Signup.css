@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+
+.login-fields {
+    display: flex;
+    flex-direction: column;
+    justify-content: "center";
+    margin: 5px;
+
+}
+
+.input {
+    margin: 10px;
+
+}
+
+.actions {
+    margin: 10px;
+}
+
+
+#signup-email {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-size: small;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-self: center;
+    align-content: center; */
+    align-items: center;
+    width: 300px;
+}
+
+#signup-password {
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-size: small;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-self: center;
+    align-content: center; */
+    align-items: center;
+    width: 300px;
+}
+
+#signup-confirmpassword {
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-size: small;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-self: center;
+    align-content: center; */
+    align-items: center;
+    width: 300px;
+}
+
+.btn {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-size: x-small;
+
+    width: 300px;
+}
+
+#signupbtn2 {
+    height: 35px;
+    width: 300px;
+    background-color: #485eaf;
+}
+
+#signupbtn2:hover {
+    height: 35px;
+    width: 300px;
+    background-color: #16245c;
+}

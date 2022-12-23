@@ -1,0 +1,16 @@
+#tablearea-wrap {
+    position: absolute;
+        width: 85%;
+        left: 14%;
+        top: 11%;
+        background: #ffffff;
+        border-radius: 15px;
+}
+#table-container{
+    /* border: 1px solid black; */
+    margin-top:4%;
+        margin-left: 2%;
+        margin-right: 1%;
+        margin-bottom: 1%;
+        border-radius: 10px;
+    }

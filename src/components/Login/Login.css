@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+/* .sign {
+    width: 100vh;
+    height: 100vh;
+} */
+
+.login {
+    position: absolute;
+    width: 84%;
+    height: 75%;
+    left: 8%;
+    top: 12%;
+    /* right: 164px;
+    bottom: 158px; */
+
+    background: #CEF3FF;
+    opacity: 0.6;
+    box-shadow: 0px 2px 5px #B2DFFF;
+    border-radius: 7px;
+
+
+}
+
+.login-container {
+    position: absolute;
+    width: 25%;
+    height: 40%;
+    left: 38%;
+    top: 37%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-self: center; */
+    /* align-content: center; */
+    align-items: center;
+}
+
+.display {
+
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.login-fields {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#login-email {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-size: small;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-self: center;
+    align-content: center; */
+    align-items: center;
+    width: 300px;
+}
+
+#login-password {
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-size: small;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-self: center;
+    align-content: center; */
+    align-items: center;
+    width: 300px;
+}
+
+#login-confirmpassword {
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-size: small;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-self: center;
+    align-content: center; */
+    align-items: center;
+    width: 300px;
+}
+
+.btn {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-size: x-small;
+
+    width: 300px;
+}
+
+#signupbtn {
+    height: 35px;
+    width: 300px;
+    background-color: white;
+    color: #485eaf;
+}
+
+#signupbtn:hover,
+#signupbtn:active {
+    height: 35px;
+    width: 300px;
+    background-color: #485eaf;
+    color: white;
+}
+
+
+#signinbtn {
+    height: 35px;
+
+    width: 300px;
+    background-color: #485eaf;
+}
+
+#signinbtn:hover {
+    height: 35px;
+
+    width: 300px;
+    background-color: #16245c;
+}
+
+.logo {
+    width: 70px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    z-index: 99;
+    position: absolute;
+    top: 3%;
+    left: 47%;
+    right: auto;
+    /* background-color: #CEF3FF; */
+}
+
+.topleft {
+    width: 170px;
+    position: absolute;
+    left: 3px;
+    top: 3px;
+
+}
+
+.bottomright {
+    width: 160px;
+    position: absolute;
+    right: 3px;
+    bottom: 3px;
+    /* transform: rotate(-30deg); */
+
+}
+
+.topright {
+    width: 120px;
+    position: absolute;
+    right: 11.5%;
+    top: 18%;
+    /* transform: rotate(-30deg); */
+    z-index: 99;
+
+}
+
+.bottomleft {
+    width: 120px;
+    position: absolute;
+    left: 11.5%;
+    bottom: 18%;
+    /* transform: rotate(-30deg); */
+    z-index: 99;
+
+}
+.actions{
+  
+margin: 3% 0% 3% 0%;
+       
+}
+.input{
+   
+margin-bottom: 2%
+      
+}

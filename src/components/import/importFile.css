@@ -1,0 +1,32 @@
+.import-container {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgba(66, 64, 64,0.38);
+    box-shadow: rgba(0,0,0,0.35) 0px 5px 15px ;
+    border-radius: 3px;
+    background-color: white;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    padding: 8px;
+    gap: 7px;
+    width: 190px;
+    height: 148px;
+}
+
+.import-component-container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+
+.cancel-btn {
+    color: white;
+    background-color: #2DA5FC;
+    border-radius: 3px;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    width: 64px;
+}

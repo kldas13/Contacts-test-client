@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+
+#table-wrap{
+    width: 100%;
+    border-radius: 10px;
+}
+
+#head-wrap{
+    text-align:left;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 16px; 
+    height: 40px;
+        background-color: #B3DFFF;;
+       
+}
+
+.border-left-radius{
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+.border-right-radius{
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+.head-border{
+    border-radius: 10px;
+    border-top: 1px solid black;
+}
+.table-content-wrap{
+    text-align: left;
+        font-family: 'Titillium Web', sans-serif;
+        font-size: 14px;
+        height: 40px;
+}
+.table-content-wrap>td{
+    margin-left: 10px;
+    font-weight: bold;
+}
+#table-rows tr:nth-child(even){
+    background-color: rgba(178, 223, 255, 0.31);
+}
+.edit-del-icon>img{
+width: 17px;
+margin-left: 5px;
+cursor: pointer;
+}

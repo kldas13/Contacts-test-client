@@ -1,0 +1,53 @@
+.delete-container {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgba(200, 200, 200,0.6);
+    box-shadow: rgba(0,0,0,0.35) 0px 5px 15px ;
+    border-radius: 3px;
+    background-color: white;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    padding: 2px;
+    gap: 5px;
+    width: 190px;
+    height: 155px;
+}
+
+.delete-component-container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+}
+
+
+.cancel-btn {
+    color: white;
+    background-color: #2DA5FC;
+    border-radius: 3px;
+    border: none;
+    padding: 2px;
+    width: 61px;
+    cursor: pointer;
+    font-size: 10px
+}
+
+.confirm-btn {
+    border-radius: 3px;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    font-size: 10px
+}
+
+.icon-holder {
+    border-radius: 49%;
+    background-color: #2DA5FC;
+    border: none;
+    width: 24px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 7px;
+}

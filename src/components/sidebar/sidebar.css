@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@600&display=swap');
+#sidebar-wrap {
+    position: absolute;
+    width: 14%;
+    height: 100%;
+    background: #CEF3FF;
+    font-family: 'Titillium Web', sans-serif;
+    display: grid;
+    justify-content: center;
+}
+#logo{
+    margin-top: 0%;
+    font-size: 30px;
+    color:#0884FF ;
+    display: flex;
+    justify-content: center;
+    font-weight: 800;
+}
+.Sidebar-options{
+    font-size: 15px;
+        display: flex;
+        align-items: center;
+        color: #181818;  
+        
+}
+.Sidebar-options>span{
+    margin-left: 6px;
+}
+.Sidebar-options::selection{
+    border: 1px solid blue;
+}
+#dashboard-cont{
+    position: relative;
+ bottom: 45%;
+ margin-bottom: 10%;
+ height: 50px;
+padding-left: 8px;
+font-weight: 600;
+cursor: pointer;
+}
+#dashboard-cont-select{
+        background-color: #2DA5FC;
+        color: white;
+        border-radius: 6px;
+        position: relative;
+            bottom: 45%;
+            margin-bottom: 10%;
+            height: 50px;
+            padding-left: 8px;
+            transition: 800ms;
+            font-weight: 600;
+}
+#contact-cont{
+        position: relative;
+            bottom: 120%;
+            height: 50px;
+            width: 150px;
+            padding-left: 8px;
+            cursor: pointer;
+            font-weight: 600;
+            font-weight: 600;
+}
+#contact-cont-select{
+    background-color: #2DA5FC;
+    color: white;
+    border-radius: 6px;
+    position: relative;
+        bottom: 120%;
+        height: 50px;
+        width: 150px;
+        padding-left: 8px;
+        transition: 800ms;
+}
+#logout{
+    position: relative;
+        display: flex;
+        align-items: center;
+        top: 56%;
+        height: 40px;
+        cursor: pointer;
+
+}
+#logout>span{
+    margin-left: 6px;
+    font-weight: 600;
+}
